@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Fuelink-Lavalink%20Client-FF6B35?style=for-the-badge&logo=discord&logoColor=white" alt="Fuelink">
 </p>
 
-<h1 align="center">⚡ Fuelink</h1>
+<h1 align="center">Fuelink</h1>
 
 <p align="center">
   <strong>A powerful, feature-complete Lavalink client for the Fuelex ecosystem</strong>
@@ -17,16 +17,16 @@
 </p>
 
 <p align="center">
-  <a href="#-features">Features</a> •
-  <a href="#-installation">Installation</a> •
-  <a href="#-quick-start">Quick Start</a> •
-  <a href="#-configuration">Configuration</a> •
-  <a href="#-documentation">Documentation</a>
+  <a href="#features">Features</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#quick-start">Quick Start</a> •
+  <a href="#configuration">Configuration</a> •
+  <a href="#documentation">Documentation</a>
 </p>
 
 ---
 
-## 📖 About
+## About
 
 **Fuelink** is the unified Lavalink client built specifically for the **Fuelex open-source system**. It serves as the single audio control layer, centralizing all audio logic, state management, and queue handling while providing drop-in compatibility with existing Lavalink client patterns.
 
@@ -34,17 +34,17 @@
 
 | Aspect | Description |
 |--------|-------------|
-| **Unified** | One client to handle all audio operations across your Discord bot |
-| **Complete** | Feature parity with Riffy, Moonlink.js, and ts-lavalink-client |
-| **Extensible** | Hot-loadable plugin system with LavaSrc support |
-| **Reliable** | Automatic failover, session resume, and persistence |
+| **Unified** | Single client to handle all audio operations across your Discord bot |
+| **Complete** | Production-ready with all features you need out of the box |
+| **Extensible** | Hot-loadable plugin system with support for custom sources |
+| **Reliable** | Automatic failover, session resume, and state persistence |
 | **Modern** | Built for Lavalink v4 with full JavaScript/CommonJS support |
 
 ---
 
-## ✨ Features
+## Features
 
-### 🔗 Lavalink Connectivity
+### Lavalink Connectivity
 
 - **Multi-Node Support** — Connect to multiple Lavalink nodes simultaneously
 - **Load Balancing** — Intelligent penalty-based node selection (CPU, players, frames)
@@ -54,7 +54,7 @@
 - **Node Migration** — Automatic player migration on node failure
 - **Region Awareness** — Prefer nodes closest to Discord voice servers
 
-### 🎵 Player System
+### Player System
 
 - **Complete Playback Control** — Play, pause, resume, stop, seek, volume
 - **Gapless Playback** — Preloading for seamless track transitions
@@ -63,7 +63,7 @@
 - **Position Tracking** — Real-time estimated position calculation
 - **State Persistence** — Save and restore player state across restarts
 
-### 📋 Queue Management
+### Queue Management
 
 - **Priority Queue** — Add tracks that play next before the main queue
 - **Loop Modes** — Off, track repeat, queue loop
@@ -72,7 +72,7 @@
 - **Requester Tracking** — Track who requested each song
 - **Auto-Play** — Automatic recommendations when queue ends
 
-### 🎛️ Audio Filters & Effects
+### Audio Filters & Effects
 
 | Filter | Description |
 |--------|-------------|
@@ -87,9 +87,9 @@
 | **Distortion** | Audio distortion |
 | **Low Pass** | High frequency filtering |
 
-All filters can be **stacked** and applied **in real-time** without restarting the track!
+All filters can be **stacked** and applied **in real-time** without restarting the track.
 
-### 🔌 Plugin System
+### Plugin System
 
 - **Hot-Loadable** — Add and remove plugins at runtime
 - **LavaSrc Compatible** — Built-in support for Spotify, Apple Music, Deezer, Yandex
@@ -97,14 +97,14 @@ All filters can be **stacked** and applied **in real-time** without restarting t
 - **Middleware Hooks** — Intercept track loads and playback events
 - **Directory Loading** — Auto-discover plugins from a folder
 
-### 💾 Persistence & Recovery
+### Persistence & Recovery
 
 - **Multiple Backends** — Memory, file, Redis, MongoDB
 - **Auto-Save** — Periodic automatic state saving
 - **Crash Recovery** — Restore players after bot restarts
 - **TTL Management** — Automatic cleanup of expired data
 
-### 🎧 Discord Integration
+### Discord Integration
 
 - **Multi-Library Support** — Works with Discord.js and Eris
 - **Auto-Detection** — Automatically detects your Discord library
@@ -113,7 +113,7 @@ All filters can be **stacked** and applied **in real-time** without restarting t
 
 ---
 
-## 📦 Installation
+## Installation
 
 ```bash
 # npm
@@ -130,14 +130,14 @@ pnpm add fuelink
 
 | Requirement | Version |
 |-------------|---------|
-| Node.js | ≥ 18.0.0 |
-| Lavalink | ≥ 4.0.0 |
-| Discord.js | ≥ 14.x (optional) |
-| Eris | ≥ 0.17.x (optional) |
+| Node.js | >= 18.0.0 |
+| Lavalink | >= 4.0.0 |
+| Discord.js | >= 14.x (optional) |
+| Eris | >= 0.17.x (optional) |
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Basic Setup
 
@@ -216,7 +216,7 @@ async function play(guildId, voiceChannelId, query) {
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 ### Full Configuration Example
 
@@ -283,7 +283,7 @@ const fuelink = new Fuelink({
 
 ---
 
-## 📚 Documentation
+## Documentation
 
 ### Player Methods
 
@@ -358,7 +358,7 @@ fuelink.on('nodeReady', ({ node, resumed }) => {});
 
 ---
 
-## 🔌 Creating Plugins
+## Creating Plugins
 
 ### Custom Source Plugin
 
@@ -402,23 +402,23 @@ fuelink.use(new MyMusicSource());
 
 ---
 
-## 🎵 Music Platforms Support
+## Music Platforms Support
 
 | Platform | Support | Notes |
 |----------|---------|-------|
-| YouTube | ✅ Built-in | Native Lavalink support |
-| YouTube Music | ✅ Built-in | Native Lavalink support |
-| SoundCloud | ✅ Built-in | Native Lavalink support |
-| Spotify | ✅ LavaSrc | Requires LavaSrc plugin on Lavalink |
-| Apple Music | ✅ LavaSrc | Requires LavaSrc plugin on Lavalink |
-| Deezer | ✅ LavaSrc | Requires LavaSrc plugin on Lavalink |
-| Yandex Music | ✅ LavaSrc | Requires LavaSrc plugin on Lavalink |
-| Bandcamp | ✅ Custom | Via custom plugin |
-| HTTP Streams | ✅ Built-in | Direct URL playback |
+| YouTube | Built-in | Native Lavalink support |
+| YouTube Music | Built-in | Native Lavalink support |
+| SoundCloud | Built-in | Native Lavalink support |
+| Spotify | LavaSrc | Requires LavaSrc plugin on Lavalink |
+| Apple Music | LavaSrc | Requires LavaSrc plugin on Lavalink |
+| Deezer | LavaSrc | Requires LavaSrc plugin on Lavalink |
+| Yandex Music | LavaSrc | Requires LavaSrc plugin on Lavalink |
+| Bandcamp | Custom | Via custom plugin |
+| HTTP Streams | Built-in | Direct URL playback |
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -430,14 +430,14 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
 <p align="center">
-  Made with ❤️ by <a href="https://github.com/Fuelex-Labs">Fuelex Labs</a>
+  Made with care by <a href="https://github.com/Fuelex-Labs">Fuelex Labs</a>
 </p>
 
 <p align="center">
