@@ -418,30 +418,6 @@ fuelink.use(new MyMusicSource());
 
 ---
 
-## 📊 Feature Comparison
-
-| Feature | Fuelink | Riffy | Moonlink | ts-lavalink |
-|---------|:-------:|:-----:|:--------:|:-----------:|
-| Multi-node | ✅ | ✅ | ✅ | ✅ |
-| Session resume | ✅ | ✅ | ✅ | ✅ |
-| Auto-reconnect | ✅ | ✅ | ✅ | ✅ |
-| Node failover | ✅ | ⚠️ | ✅ | ✅ |
-| Load balancing | ✅ | ⚠️ | ✅ | ✅ |
-| Full filters | ✅ | ✅ | ✅ | ✅ |
-| Filter stacking | ✅ | ⚠️ | ⚠️ | ✅ |
-| Filter presets | ✅ | ❌ | ❌ | ⚠️ |
-| Priority queue | ✅ | ⚠️ | ❌ | ⚠️ |
-| Auto-play | ✅ | ⚠️ | ✅ | ⚠️ |
-| Gapless playback | ✅ | ❌ | ⚠️ | ✅ |
-| Persistence | ✅ | ⚠️ | ⚠️ | ⚠️ |
-| DisTube integration | ✅ | ❌ | ❌ | ❌ |
-| Hot-load plugins | ✅ | ⚠️ | ⚠️ | ⚠️ |
-| JSDoc types | ✅ | ⚠️ | ⚠️ | ✅ |
-
-**Legend:** ✅ Full | ⚠️ Partial | ❌ None
-
----
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
