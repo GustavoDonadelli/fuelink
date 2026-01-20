@@ -53,3 +53,13 @@ The library is automatically detected - no configuration needed.
 - [Installation](/basics/installation) - Add Fuelink to your project
 - [Quick Start](/basics/quick-start) - Get playing in minutes
 - [Configuration](/basics/configuration) - Full configuration options
+
+---
+
+## Team
+
+Fuelink is developed and maintained by:
+
+| Member | Role | GitHub |
+|--------|------|--------|
+| Ramkrishna | Lead Developer | [@ramkrishna-js](https://github.com/ramkrishna-js) |
