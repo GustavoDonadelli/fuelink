@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
     title: 'Fuelink',
     description: 'A powerful, feature-complete Lavalink client for Node.js',
+    base: '/fuelink/',
 
     head: [
         ['meta', { name: 'theme-color', content: '#FF6B35' }],
